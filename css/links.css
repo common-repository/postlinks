@@ -1,0 +1,55 @@
+div.ls-postlink-rep
+{
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  -moz-box-shadow: 0 0 1px rgba(0, 0, 0, 0.65);
+  -webkit-box-shadow: 0 0 3px rgba(0, 0, 0, 0.65);
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.65);
+  background-color: #fff;
+  border-width: 1px;
+  margin: 1px 0 10px 0;
+  padding: 5px 8px;
+  width: 80%;
+}
+
+div.ls-postlink-rep.bad
+{
+  color: #cccccc;
+  font-style: italic;
+}
+
+div#ls-browser-shade
+{
+  display: none;
+  z-index: 1000;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: url('../images/overlay.png') repeat;
+}
+
+div#ls-browser-box
+{
+  width: 500px;
+  height: 309px;
+  background-color: #fff;
+  margin: 0 auto;
+  vertical-align: middle;
+  padding: 10px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-top: -154px;
+  margin-left: -250px;
+  -moz-box-shadow: 0 0 12px rgba(0, 0, 0, 0.50);
+  -webkit-box-shadow: 0 0 12px rgba(0, 0, 0, 0.50);
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.50);
+}
+
+.ls-part-row
+{
+  margin-top: 10px;
+}
